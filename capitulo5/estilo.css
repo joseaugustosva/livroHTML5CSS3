@@ -27,3 +27,25 @@ h1 ~ h2 {
   color: #090;
 }
 
+nav > ul {
+  margin-left: 50px;
+}
+
+nav > ul > li:first-child > a {
+  color: #060;
+  text-decoration: none;
+}
+
+nav > ul > li:first-child > a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+nav > ul > li:last-child {
+  font-size: 26px;
+  list-style-type: square;
+}
+
+nav > ul > li:nth-child(3) {
+  background: #ccc;
+}
