@@ -17,6 +17,10 @@
       box-sizing: border-box;
     }
 
+    .clear {
+      clear: both;
+    }
+
     body {
       font: 18px/1.4 arial, sans-serif;
       background: #ddd;
@@ -33,7 +37,6 @@
     /* Topo de site */
 
     .topo {
-      width: 100%;
       line-height: 1;
       padding: 1px 20px 10px 20px;
     }
@@ -60,8 +63,15 @@
     nav>ul {
       width: 100%;
       background: #900;
-      margin: 0;
+      margin: 5px 0 0 0;
       padding: 0;
+    }
+
+    nav {
+      border-top: 1px solid #900;
+      width: 100%;
+      width: calc(100% + 40px);
+      margin-left: -20px;
     }
 
     .topo ul li {
